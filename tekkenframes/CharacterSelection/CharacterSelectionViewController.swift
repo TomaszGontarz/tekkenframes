@@ -22,12 +22,16 @@ class CharacterSelectionViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
     
     /*
