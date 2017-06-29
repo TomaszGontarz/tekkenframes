@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="CharacterCell" rowHeight="67" id="vcm-tG-3Fl">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="CharacterCell" rowHeight="67" id="vcm-tG-3Fl" customClass="CharacterSelectionCellTableViewCell" customModule="tekkenframes" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="67"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vcm-tG-3Fl" id="WrD-OR-HLd">
@@ -40,6 +40,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="HzN-lC-RcK" secondAttribute="bottom" id="xTN-zF-9uH"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="characterImage" destination="HzN-lC-RcK" id="hcI-e6-Ar1"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */; };
+		76B194A01F052436009A5862 /* CharacterSelectionCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949F1F052436009A5862 /* CharacterSelectionCellTableViewCell.swift */; };
+		76B194A21F052515009A5862 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B194A11F052514009A5862 /* CharacterData.swift */; };
+		76B194A41F052806009A5862 /* CharacterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B194A31F052806009A5862 /* CharacterProvider.swift */; };
 		76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3190C1F05043B00FF9D9D /* AppDelegate.swift */; };
 		76B319121F05043B00FF9D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B319101F05043B00FF9D9D /* Main.storyboard */; };
 		76B319141F05043B00FF9D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B319131F05043B00FF9D9D /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDelegate.swift; sourceTree = "<group>"; };
+		76B1949F1F052436009A5862 /* CharacterSelectionCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCellTableViewCell.swift; sourceTree = "<group>"; };
+		76B194A11F052514009A5862 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		76B194A31F052806009A5862 /* CharacterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProvider.swift; sourceTree = "<group>"; };
 		76B319091F05043B00FF9D9D /* tekkenframes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tekkenframes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B3190C1F05043B00FF9D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B319111F05043B00FF9D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,16 +104,6 @@
 			path = tekkenframesTests;
 			sourceTree = "<group>";
 		};
-		76FAD4911F0514ED00DE5CCC /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */,
-				76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */,
-				76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		76FAD4921F05150700DE5CCC /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +117,12 @@
 		76FAD4951F0515A900DE5CCC /* CharacterSelection */ = {
 			isa = PBXGroup;
 			children = (
-				76FAD4911F0514ED00DE5CCC /* ViewControllers */,
+				76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */,
+				76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */,
+				76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */,
+				76B1949F1F052436009A5862 /* CharacterSelectionCellTableViewCell.swift */,
+				76B194A11F052514009A5862 /* CharacterData.swift */,
+				76B194A31F052806009A5862 /* CharacterProvider.swift */,
 			);
 			path = CharacterSelection;
 			sourceTree = "<group>";
@@ -228,8 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				76FAD4971F05161800DE5CCC /* CharacterSelectionDataSource.swift in Sources */,
+				76B194A01F052436009A5862 /* CharacterSelectionCellTableViewCell.swift in Sources */,
 				76FAD4941F05157A00DE5CCC /* CharacterSelectionViewController.swift in Sources */,
+				76B194A21F052515009A5862 /* CharacterData.swift in Sources */,
 				76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */,
+				76B194A41F052806009A5862 /* CharacterProvider.swift in Sources */,
 				76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
