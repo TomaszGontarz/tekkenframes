@@ -77,12 +77,10 @@
 		76B3190B1F05043B00FF9D9D /* tekkenframes */ = {
 			isa = PBXGroup;
 			children = (
-				76B3190C1F05043B00FF9D9D /* AppDelegate.swift */,
-				76B3190E1F05043B00FF9D9D /* ViewController.swift */,
+				76FAD4921F05150700DE5CCC /* Misc */,
+				76FAD4911F0514ED00DE5CCC /* ViewControllers */,
 				76B319101F05043B00FF9D9D /* Main.storyboard */,
-				76B319131F05043B00FF9D9D /* Assets.xcassets */,
 				76B319151F05043B00FF9D9D /* LaunchScreen.storyboard */,
-				76B319181F05043B00FF9D9D /* Info.plist */,
 			);
 			path = tekkenframes;
 			sourceTree = "<group>";
@@ -94,6 +92,24 @@
 				76B319231F05043B00FF9D9D /* Info.plist */,
 			);
 			path = tekkenframesTests;
+			sourceTree = "<group>";
+		};
+		76FAD4911F0514ED00DE5CCC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76B3190E1F05043B00FF9D9D /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		76FAD4921F05150700DE5CCC /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				76B3190C1F05043B00FF9D9D /* AppDelegate.swift */,
+				76B319131F05043B00FF9D9D /* Assets.xcassets */,
+				76B319181F05043B00FF9D9D /* Info.plist */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +438,7 @@
 				76B319281F05043B00FF9D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76B319291F05043B00FF9D9D /* Build configuration list for PBXNativeTarget "tekkenframesTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +447,7 @@
 				76B3192B1F05043B00FF9D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
