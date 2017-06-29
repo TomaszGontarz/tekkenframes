@@ -52,6 +52,6 @@ struct CharacterStorage: CharactersProvider {
                                 "yoshimitsu"]
     // Needs refactor
     var availableCharacters: [TekkenCharacter] {
-        return characterIds.map { CharacterData(id: $0, image: UIImage(named: $0 + "_alt")!) }
+        return characterIds.map { CharacterData(id: $0, image: UIImage(named: $0)!) }
     }
 }
