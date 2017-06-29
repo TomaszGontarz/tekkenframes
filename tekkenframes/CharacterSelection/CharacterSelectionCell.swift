@@ -9,7 +9,7 @@
 import UIKit
 
 class CharacterSelectionCell: UITableViewCell {
-    @IBOutlet weak var characterImage: UIImageView!
+    @IBOutlet weak var characterView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
