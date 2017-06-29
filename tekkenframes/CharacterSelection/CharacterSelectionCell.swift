@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CharacterSelectionCellTableViewCell: UITableViewCell {
+class CharacterSelectionCell: UITableViewCell {
     @IBOutlet weak var characterImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
