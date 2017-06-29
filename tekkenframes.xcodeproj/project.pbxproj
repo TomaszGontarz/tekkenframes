@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3190C1F05043B00FF9D9D /* AppDelegate.swift */; };
-		76B3190F1F05043B00FF9D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3190E1F05043B00FF9D9D /* ViewController.swift */; };
 		76B319121F05043B00FF9D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B319101F05043B00FF9D9D /* Main.storyboard */; };
 		76B319141F05043B00FF9D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B319131F05043B00FF9D9D /* Assets.xcassets */; };
 		76B319171F05043B00FF9D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B319151F05043B00FF9D9D /* LaunchScreen.storyboard */; };
 		76B319221F05043B00FF9D9D /* tekkenframesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B319211F05043B00FF9D9D /* tekkenframesTests.swift */; };
+		76FAD4941F05157A00DE5CCC /* CharacterSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */; };
+		76FAD4971F05161800DE5CCC /* CharacterSelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		76B319091F05043B00FF9D9D /* tekkenframes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tekkenframes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B3190C1F05043B00FF9D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76B3190E1F05043B00FF9D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76B319111F05043B00FF9D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76B319131F05043B00FF9D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B319161F05043B00FF9D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		76B3191D1F05043B00FF9D9D /* tekkenframesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekkenframesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B319211F05043B00FF9D9D /* tekkenframesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekkenframesTests.swift; sourceTree = "<group>"; };
 		76B319231F05043B00FF9D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionViewController.swift; sourceTree = "<group>"; };
+		76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				76FAD4921F05150700DE5CCC /* Misc */,
-				76FAD4911F0514ED00DE5CCC /* ViewControllers */,
+				76FAD4951F0515A900DE5CCC /* CharacterSelection */,
 				76B319101F05043B00FF9D9D /* Main.storyboard */,
 				76B319151F05043B00FF9D9D /* LaunchScreen.storyboard */,
 			);
@@ -97,7 +99,8 @@
 		76FAD4911F0514ED00DE5CCC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				76B3190E1F05043B00FF9D9D /* ViewController.swift */,
+				76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */,
+				76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -110,6 +113,14 @@
 				76B319181F05043B00FF9D9D /* Info.plist */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		76FAD4951F0515A900DE5CCC /* CharacterSelection */ = {
+			isa = PBXGroup;
+			children = (
+				76FAD4911F0514ED00DE5CCC /* ViewControllers */,
+			);
+			path = CharacterSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B3190F1F05043B00FF9D9D /* ViewController.swift in Sources */,
+				76FAD4971F05161800DE5CCC /* CharacterSelectionDataSource.swift in Sources */,
+				76FAD4941F05157A00DE5CCC /* CharacterSelectionViewController.swift in Sources */,
 				76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D84AR5EWTB;
-				INFOPLIST_FILE = tekkenframes/Info.plist;
+				INFOPLIST_FILE = tekkenframes/Misc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomaszGontarz.tekkenframes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
