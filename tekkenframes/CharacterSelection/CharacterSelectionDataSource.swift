@@ -9,24 +9,21 @@
 import UIKit
 
 class CharacterSelectionDataSource: NSObject, UITableViewDataSource {
-    private let numberOfRows = 28
     private let reuseIdentifier = "CharacterCell"
-    
-    var displayData: [TekkenCharacter]
+    private let displayData: [TekkenCharacter]
     
     init(provider: CharactersProvider) {
         self.displayData = provider.availableCharacters
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numberOfRows
+        return displayData.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> CharacterSelectionCellTableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
-        
-        // Configure the cell...
-        
+        guard let characterCell = cell  as? CharacterSelectionCell, indexPath.row < displayData.count else { return cell }
+        characterCell.characterView.image = displayData[indexPath.row].image
         return cell
     }
 }
