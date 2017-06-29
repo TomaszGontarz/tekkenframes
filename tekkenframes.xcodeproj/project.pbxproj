@@ -422,6 +422,7 @@
 				76B319281F05043B00FF9D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76B319291F05043B00FF9D9D /* Build configuration list for PBXNativeTarget "tekkenframesTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				76B3192B1F05043B00FF9D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
