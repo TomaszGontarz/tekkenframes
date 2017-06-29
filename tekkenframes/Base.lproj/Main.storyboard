@@ -54,6 +54,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3LY-aH-Dei"/>
                     </view>
+                    <connections>
+                        <outlet property="characterTableView" destination="SMd-sl-pVZ" id="mjB-c2-iCg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
