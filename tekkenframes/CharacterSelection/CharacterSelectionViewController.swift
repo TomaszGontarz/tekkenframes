@@ -11,22 +11,15 @@ import UIKit
 class CharacterSelectionViewController: UIViewController {
     @IBOutlet weak var characterTableView: UITableView!
     
-    private var characterDataSource = CharacterSelectionDataSource()
+    private var characterDataSource = CharacterSelectionDataSource(provider: CharacterStorage())
     private var characterDelegate =  CharacterSelectionDelegate()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         characterTableView.dataSource = characterDataSource
         characterTableView.delegate = characterDelegate
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 

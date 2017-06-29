@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */; };
-		76B194A01F052436009A5862 /* CharacterSelectionCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949F1F052436009A5862 /* CharacterSelectionCellTableViewCell.swift */; };
+		76B194A01F052436009A5862 /* CharacterSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */; };
 		76B194A21F052515009A5862 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B194A11F052514009A5862 /* CharacterData.swift */; };
 		76B194A41F052806009A5862 /* CharacterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B194A31F052806009A5862 /* CharacterProvider.swift */; };
 		76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3190C1F05043B00FF9D9D /* AppDelegate.swift */; };
@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDelegate.swift; sourceTree = "<group>"; };
-		76B1949F1F052436009A5862 /* CharacterSelectionCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCellTableViewCell.swift; sourceTree = "<group>"; };
+		76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCell.swift; sourceTree = "<group>"; };
 		76B194A11F052514009A5862 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
 		76B194A31F052806009A5862 /* CharacterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProvider.swift; sourceTree = "<group>"; };
 		76B319091F05043B00FF9D9D /* tekkenframes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tekkenframes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		76B3191D1F05043B00FF9D9D /* tekkenframesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekkenframesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B319211F05043B00FF9D9D /* tekkenframesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekkenframesTests.swift; sourceTree = "<group>"; };
 		76B319231F05043B00FF9D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionViewController.swift; sourceTree = "<group>"; };
+		76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 				76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */,
 				76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */,
 				76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */,
-				76B1949F1F052436009A5862 /* CharacterSelectionCellTableViewCell.swift */,
+				76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */,
 				76B194A11F052514009A5862 /* CharacterData.swift */,
 				76B194A31F052806009A5862 /* CharacterProvider.swift */,
 			);
@@ -229,7 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76FAD4971F05161800DE5CCC /* CharacterSelectionDataSource.swift in Sources */,
-				76B194A01F052436009A5862 /* CharacterSelectionCellTableViewCell.swift in Sources */,
+				76B194A01F052436009A5862 /* CharacterSelectionCell.swift in Sources */,
 				76FAD4941F05157A00DE5CCC /* CharacterSelectionViewController.swift in Sources */,
 				76B194A21F052515009A5862 /* CharacterData.swift in Sources */,
 				76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */,
