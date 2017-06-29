@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol CharactersProvider {
+protocol CharactersDataProvider {
     var availableCharacters: [TekkenCharacter] { get }
 }
 
-struct CharacterStorage: CharactersProvider {
+struct CharacterStorage: CharactersDataProvider {
     private let characterIds = ["akuma",
                                 "alisa",
                                 "asuka",
@@ -50,7 +50,6 @@ struct CharacterStorage: CharactersProvider {
                                 "steve",
                                 "xiaoyu",
                                 "yoshimitsu"]
-    // Needs refactor
     var availableCharacters: [TekkenCharacter] {
         return characterIds.map { CharacterData(id: $0, image: UIImage(named: $0)!) }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765DCCBE1F05828500167932 /* CharacterDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */; };
 		76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */; };
 		76B194A01F052436009A5862 /* CharacterSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */; };
 		76B194A21F052515009A5862 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B194A11F052514009A5862 /* CharacterData.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsTableViewController.swift; sourceTree = "<group>"; };
 		76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDelegate.swift; sourceTree = "<group>"; };
 		76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCell.swift; sourceTree = "<group>"; };
 		76B194A11F052514009A5862 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		765DCCBC1F05823000167932 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */,
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
 		76B319001F05043B00FF9D9D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		76B3190B1F05043B00FF9D9D /* tekkenframes */ = {
 			isa = PBXGroup;
 			children = (
+				765DCCBC1F05823000167932 /* CharacterDetails */,
 				76FAD4921F05150700DE5CCC /* Misc */,
 				76FAD4951F0515A900DE5CCC /* CharacterSelection */,
 				76B319101F05043B00FF9D9D /* Main.storyboard */,
@@ -234,6 +245,7 @@
 				76B194A21F052515009A5862 /* CharacterData.swift in Sources */,
 				76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */,
 				76B194A41F052806009A5862 /* CharacterProvider.swift in Sources */,
+				765DCCBE1F05828500167932 /* CharacterDetailsTableViewController.swift in Sources */,
 				76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

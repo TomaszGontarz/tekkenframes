@@ -9,5 +9,17 @@
 import UIKit
 
 class CharacterSelectionDelegate: NSObject, UITableViewDelegate {
-
+    let charactersData: [TekkenCharacter]
+    
+    let showDetails: (TekkenCharacter) -> ()
+    
+    init(provider: CharactersDataProvider, selectAction: @escaping (TekkenCharacter) -> ()) {
+        charactersData = provider.availableCharacters
+        showDetails = selectAction
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard indexPath.row < charactersData.count else { return }
+        showDetails(charactersData[indexPath.row])
+    }
 }

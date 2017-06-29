@@ -10,14 +10,26 @@ import UIKit
 
 class CharacterSelectionViewController: UIViewController {
     @IBOutlet weak var characterTableView: UITableView!
+    private var dataSource: UITableViewDataSource?
+    private var delegate: UITableViewDelegate?
     
-    private var characterDataSource = CharacterSelectionDataSource(provider: CharacterStorage())
-    private var characterDelegate =  CharacterSelectionDelegate()
+    private var provider: CharactersDataProvider {
+        return CharacterStorage()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        characterTableView.dataSource = characterDataSource
-        characterTableView.delegate = characterDelegate
+        let detailsSegueIndetifier = "showDetails"
+        dataSource = CharacterSelectionDataSource(provider: provider)
+        delegate = CharacterSelectionDelegate(provider: provider) { character in
+            self.performSegue(withIdentifier: detailsSegueIndetifier, sender: character)
+        }
+        configureTableView()
+    }
+    
+    private func configureTableView() {
+        characterTableView.dataSource = dataSource
+        characterTableView.delegate = delegate
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -33,15 +45,11 @@ class CharacterSelectionViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+extension CharacterSelectionViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        guard let detail = segue.destination as? CharacterDetailsTableViewController, let character = sender as? CharacterData else { return }
+        detail.character = character
     }
-    */
-
 }
