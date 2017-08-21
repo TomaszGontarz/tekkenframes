@@ -12,7 +12,7 @@ class CharacterSelectionDataSource: NSObject, UITableViewDataSource {
     private let reuseIdentifier = "CharacterCell"
     private let displayData: [TekkenCharacter]
     
-    init(provider: CharactersProvider) {
+    init(provider: CharactersDataProvider) {
         self.displayData = provider.availableCharacters
     }
     

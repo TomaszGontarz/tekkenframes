@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760B7AF01F0716EE00DBF554 /* Akuma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AEF1F0716EE00DBF554 /* Akuma.swift */; };
+		760B7AF21F071C3D00DBF554 /* Alisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AF11F071C3D00DBF554 /* Alisa.swift */; };
+		760B7AF41F071C5200DBF554 /* Asuka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AF31F071C5200DBF554 /* Asuka.swift */; };
+		760B7AF61F071C5E00DBF554 /* Bob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AF51F071C5E00DBF554 /* Bob.swift */; };
+		760B7AF81F071C7800DBF554 /* Bryan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AF71F071C7800DBF554 /* Bryan.swift */; };
+		760B7AFA1F07201C00DBF554 /* Claudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AF91F07201C00DBF554 /* Claudio.swift */; };
+		760B7AFC1F07202D00DBF554 /* Deviljin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AFB1F07202D00DBF554 /* Deviljin.swift */; };
+		760B7AFE1F07203B00DBF554 /* Dragunov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AFD1F07203B00DBF554 /* Dragunov.swift */; };
+		760B7B001F07205700DBF554 /* Eddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7AFF1F07205700DBF554 /* Eddy.swift */; };
+		760B7B021F07206300DBF554 /* Eliza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B011F07206300DBF554 /* Eliza.swift */; };
+		760B7B041F07206D00DBF554 /* Feng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B031F07206D00DBF554 /* Feng.swift */; };
+		760B7B061F07207C00DBF554 /* Gigas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B051F07207C00DBF554 /* Gigas.swift */; };
+		760B7B081F07208A00DBF554 /* Heihachi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B071F07208A00DBF554 /* Heihachi.swift */; };
+		760B7B0A1F0720A300DBF554 /* Hworang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B091F0720A300DBF554 /* Hworang.swift */; };
+		760B7B0C1F0720AB00DBF554 /* Jack7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B0B1F0720AB00DBF554 /* Jack7.swift */; };
+		760B7B0E1F0720C200DBF554 /* Jin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B0D1F0720C200DBF554 /* Jin.swift */; };
+		760B7B101F0720CD00DBF554 /* Josie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B0F1F0720CD00DBF554 /* Josie.swift */; };
+		760B7B121F0720D600DBF554 /* Katarina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B111F0720D600DBF554 /* Katarina.swift */; };
+		760B7B141F0720DE00DBF554 /* Kazumi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B131F0720DE00DBF554 /* Kazumi.swift */; };
+		760B7B161F0720E500DBF554 /* Kazuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B151F0720E500DBF554 /* Kazuya.swift */; };
+		760B7B181F0720EC00DBF554 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B171F0720EC00DBF554 /* King.swift */; };
+		760B7B1A1F0720F100DBF554 /* Kuma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B191F0720F100DBF554 /* Kuma.swift */; };
+		760B7B1C1F0720F900DBF554 /* Lars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B1B1F0720F900DBF554 /* Lars.swift */; };
+		760B7B1E1F0720FF00DBF554 /* Law.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B1D1F0720FF00DBF554 /* Law.swift */; };
+		760B7B201F07210900DBF554 /* Lee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B1F1F07210900DBF554 /* Lee.swift */; };
+		760B7B221F07210E00DBF554 /* Leo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B211F07210E00DBF554 /* Leo.swift */; };
+		760B7B241F07211500DBF554 /* Lili.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B231F07211500DBF554 /* Lili.swift */; };
+		760B7B261F07212900DBF554 /* Luckychloe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B251F07212900DBF554 /* Luckychloe.swift */; };
+		760B7B281F07213200DBF554 /* Masterraven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B271F07213200DBF554 /* Masterraven.swift */; };
+		760B7B2A1F07213900DBF554 /* Miguel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B291F07213900DBF554 /* Miguel.swift */; };
+		760B7B2C1F07213F00DBF554 /* Nina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B2B1F07213F00DBF554 /* Nina.swift */; };
+		760B7B2E1F07214B00DBF554 /* Paul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B2D1F07214B00DBF554 /* Paul.swift */; };
+		760B7B301F07216900DBF554 /* Shaheen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B2F1F07216900DBF554 /* Shaheen.swift */; };
+		760B7B321F07217200DBF554 /* Steve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B311F07217200DBF554 /* Steve.swift */; };
+		760B7B341F07218600DBF554 /* Xiaoyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B331F07218600DBF554 /* Xiaoyu.swift */; };
+		760B7B361F07219A00DBF554 /* Yoshimitsu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B351F07219A00DBF554 /* Yoshimitsu.swift */; };
+		765DCCBE1F05828500167932 /* CharacterDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */; };
 		76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */; };
 		76B194A01F052436009A5862 /* CharacterSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */; };
 		76B194A21F052515009A5862 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B194A11F052514009A5862 /* CharacterData.swift */; };
@@ -16,6 +53,8 @@
 		76B319141F05043B00FF9D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B319131F05043B00FF9D9D /* Assets.xcassets */; };
 		76B319171F05043B00FF9D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B319151F05043B00FF9D9D /* LaunchScreen.storyboard */; };
 		76B319221F05043B00FF9D9D /* tekkenframesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B319211F05043B00FF9D9D /* tekkenframesTests.swift */; };
+		76C8ACF01F06EBAC00E9EA08 /* MovesetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C8ACEF1F06EBAC00E9EA08 /* MovesetProvider.swift */; };
+		76C8ACF21F06EC4B00E9EA08 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C8ACF11F06EC4B00E9EA08 /* Move.swift */; };
 		76FAD4941F05157A00DE5CCC /* CharacterSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */; };
 		76FAD4971F05161800DE5CCC /* CharacterSelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +70,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		760B7AEF1F0716EE00DBF554 /* Akuma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akuma.swift; sourceTree = "<group>"; };
+		760B7AF11F071C3D00DBF554 /* Alisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alisa.swift; sourceTree = "<group>"; };
+		760B7AF31F071C5200DBF554 /* Asuka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asuka.swift; sourceTree = "<group>"; };
+		760B7AF51F071C5E00DBF554 /* Bob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bob.swift; sourceTree = "<group>"; };
+		760B7AF71F071C7800DBF554 /* Bryan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bryan.swift; sourceTree = "<group>"; };
+		760B7AF91F07201C00DBF554 /* Claudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Claudio.swift; sourceTree = "<group>"; };
+		760B7AFB1F07202D00DBF554 /* Deviljin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deviljin.swift; sourceTree = "<group>"; };
+		760B7AFD1F07203B00DBF554 /* Dragunov.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragunov.swift; sourceTree = "<group>"; };
+		760B7AFF1F07205700DBF554 /* Eddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eddy.swift; sourceTree = "<group>"; };
+		760B7B011F07206300DBF554 /* Eliza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eliza.swift; sourceTree = "<group>"; };
+		760B7B031F07206D00DBF554 /* Feng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feng.swift; sourceTree = "<group>"; };
+		760B7B051F07207C00DBF554 /* Gigas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gigas.swift; sourceTree = "<group>"; };
+		760B7B071F07208A00DBF554 /* Heihachi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heihachi.swift; sourceTree = "<group>"; };
+		760B7B091F0720A300DBF554 /* Hworang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hworang.swift; sourceTree = "<group>"; };
+		760B7B0B1F0720AB00DBF554 /* Jack7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack7.swift; sourceTree = "<group>"; };
+		760B7B0D1F0720C200DBF554 /* Jin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jin.swift; sourceTree = "<group>"; };
+		760B7B0F1F0720CD00DBF554 /* Josie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Josie.swift; sourceTree = "<group>"; };
+		760B7B111F0720D600DBF554 /* Katarina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katarina.swift; sourceTree = "<group>"; };
+		760B7B131F0720DE00DBF554 /* Kazumi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kazumi.swift; sourceTree = "<group>"; };
+		760B7B151F0720E500DBF554 /* Kazuya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kazuya.swift; sourceTree = "<group>"; };
+		760B7B171F0720EC00DBF554 /* King.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		760B7B191F0720F100DBF554 /* Kuma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuma.swift; sourceTree = "<group>"; };
+		760B7B1B1F0720F900DBF554 /* Lars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lars.swift; sourceTree = "<group>"; };
+		760B7B1D1F0720FF00DBF554 /* Law.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law.swift; sourceTree = "<group>"; };
+		760B7B1F1F07210900DBF554 /* Lee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lee.swift; sourceTree = "<group>"; };
+		760B7B211F07210E00DBF554 /* Leo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leo.swift; sourceTree = "<group>"; };
+		760B7B231F07211500DBF554 /* Lili.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lili.swift; sourceTree = "<group>"; };
+		760B7B251F07212900DBF554 /* Luckychloe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luckychloe.swift; sourceTree = "<group>"; };
+		760B7B271F07213200DBF554 /* Masterraven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masterraven.swift; sourceTree = "<group>"; };
+		760B7B291F07213900DBF554 /* Miguel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miguel.swift; sourceTree = "<group>"; };
+		760B7B2B1F07213F00DBF554 /* Nina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nina.swift; sourceTree = "<group>"; };
+		760B7B2D1F07214B00DBF554 /* Paul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paul.swift; sourceTree = "<group>"; };
+		760B7B2F1F07216900DBF554 /* Shaheen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaheen.swift; sourceTree = "<group>"; };
+		760B7B311F07217200DBF554 /* Steve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steve.swift; sourceTree = "<group>"; };
+		760B7B331F07218600DBF554 /* Xiaoyu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xiaoyu.swift; sourceTree = "<group>"; };
+		760B7B351F07219A00DBF554 /* Yoshimitsu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoshimitsu.swift; sourceTree = "<group>"; };
+		765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsTableViewController.swift; sourceTree = "<group>"; };
 		76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDelegate.swift; sourceTree = "<group>"; };
 		76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCell.swift; sourceTree = "<group>"; };
 		76B194A11F052514009A5862 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
@@ -44,6 +120,8 @@
 		76B3191D1F05043B00FF9D9D /* tekkenframesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekkenframesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B319211F05043B00FF9D9D /* tekkenframesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekkenframesTests.swift; sourceTree = "<group>"; };
 		76B319231F05043B00FF9D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C8ACEF1F06EBAC00E9EA08 /* MovesetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesetProvider.swift; sourceTree = "<group>"; };
+		76C8ACF11F06EC4B00E9EA08 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		76FAD4931F05157A00DE5CCC /* CharacterSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		76FAD4961F05161800DE5CCC /* CharacterSelectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +144,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760B7AEE1F0716D300DBF554 /* MoveData */ = {
+			isa = PBXGroup;
+			children = (
+				760B7AEF1F0716EE00DBF554 /* Akuma.swift */,
+				760B7AF11F071C3D00DBF554 /* Alisa.swift */,
+				760B7AF31F071C5200DBF554 /* Asuka.swift */,
+				760B7AF51F071C5E00DBF554 /* Bob.swift */,
+				760B7AF71F071C7800DBF554 /* Bryan.swift */,
+				760B7AF91F07201C00DBF554 /* Claudio.swift */,
+				760B7AFB1F07202D00DBF554 /* Deviljin.swift */,
+				760B7AFD1F07203B00DBF554 /* Dragunov.swift */,
+				760B7AFF1F07205700DBF554 /* Eddy.swift */,
+				760B7B011F07206300DBF554 /* Eliza.swift */,
+				760B7B031F07206D00DBF554 /* Feng.swift */,
+				760B7B051F07207C00DBF554 /* Gigas.swift */,
+				760B7B071F07208A00DBF554 /* Heihachi.swift */,
+				760B7B091F0720A300DBF554 /* Hworang.swift */,
+				760B7B0B1F0720AB00DBF554 /* Jack7.swift */,
+				760B7B0D1F0720C200DBF554 /* Jin.swift */,
+				760B7B0F1F0720CD00DBF554 /* Josie.swift */,
+				760B7B111F0720D600DBF554 /* Katarina.swift */,
+				760B7B131F0720DE00DBF554 /* Kazumi.swift */,
+				760B7B151F0720E500DBF554 /* Kazuya.swift */,
+				760B7B171F0720EC00DBF554 /* King.swift */,
+				760B7B191F0720F100DBF554 /* Kuma.swift */,
+				760B7B1B1F0720F900DBF554 /* Lars.swift */,
+				760B7B1D1F0720FF00DBF554 /* Law.swift */,
+				760B7B1F1F07210900DBF554 /* Lee.swift */,
+				760B7B211F07210E00DBF554 /* Leo.swift */,
+				760B7B231F07211500DBF554 /* Lili.swift */,
+				760B7B251F07212900DBF554 /* Luckychloe.swift */,
+				760B7B271F07213200DBF554 /* Masterraven.swift */,
+				760B7B291F07213900DBF554 /* Miguel.swift */,
+				760B7B2B1F07213F00DBF554 /* Nina.swift */,
+				760B7B2D1F07214B00DBF554 /* Paul.swift */,
+				760B7B2F1F07216900DBF554 /* Shaheen.swift */,
+				760B7B311F07217200DBF554 /* Steve.swift */,
+				760B7B331F07218600DBF554 /* Xiaoyu.swift */,
+				760B7B351F07219A00DBF554 /* Yoshimitsu.swift */,
+			);
+			name = MoveData;
+			sourceTree = "<group>";
+		};
+		765DCCBC1F05823000167932 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */,
+				76C8ACEF1F06EBAC00E9EA08 /* MovesetProvider.swift */,
+				76C8ACF11F06EC4B00E9EA08 /* Move.swift */,
+				760B7AEE1F0716D300DBF554 /* MoveData */,
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
 		76B319001F05043B00FF9D9D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +219,7 @@
 		76B3190B1F05043B00FF9D9D /* tekkenframes */ = {
 			isa = PBXGroup;
 			children = (
+				765DCCBC1F05823000167932 /* CharacterDetails */,
 				76FAD4921F05150700DE5CCC /* Misc */,
 				76FAD4951F0515A900DE5CCC /* CharacterSelection */,
 				76B319101F05043B00FF9D9D /* Main.storyboard */,
@@ -228,13 +361,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760B7B221F07210E00DBF554 /* Leo.swift in Sources */,
+				760B7B321F07217200DBF554 /* Steve.swift in Sources */,
+				76C8ACF21F06EC4B00E9EA08 /* Move.swift in Sources */,
+				760B7B341F07218600DBF554 /* Xiaoyu.swift in Sources */,
 				76FAD4971F05161800DE5CCC /* CharacterSelectionDataSource.swift in Sources */,
+				760B7AF41F071C5200DBF554 /* Asuka.swift in Sources */,
+				760B7B081F07208A00DBF554 /* Heihachi.swift in Sources */,
+				760B7B141F0720DE00DBF554 /* Kazumi.swift in Sources */,
+				760B7B021F07206300DBF554 /* Eliza.swift in Sources */,
+				760B7B241F07211500DBF554 /* Lili.swift in Sources */,
+				760B7B161F0720E500DBF554 /* Kazuya.swift in Sources */,
+				760B7AFC1F07202D00DBF554 /* Deviljin.swift in Sources */,
+				760B7B1E1F0720FF00DBF554 /* Law.swift in Sources */,
+				760B7AF61F071C5E00DBF554 /* Bob.swift in Sources */,
 				76B194A01F052436009A5862 /* CharacterSelectionCell.swift in Sources */,
+				760B7B121F0720D600DBF554 /* Katarina.swift in Sources */,
+				76C8ACF01F06EBAC00E9EA08 /* MovesetProvider.swift in Sources */,
+				760B7B0C1F0720AB00DBF554 /* Jack7.swift in Sources */,
+				760B7B181F0720EC00DBF554 /* King.swift in Sources */,
 				76FAD4941F05157A00DE5CCC /* CharacterSelectionViewController.swift in Sources */,
+				760B7B261F07212900DBF554 /* Luckychloe.swift in Sources */,
 				76B194A21F052515009A5862 /* CharacterData.swift in Sources */,
+				760B7AF01F0716EE00DBF554 /* Akuma.swift in Sources */,
+				760B7B001F07205700DBF554 /* Eddy.swift in Sources */,
+				760B7AFA1F07201C00DBF554 /* Claudio.swift in Sources */,
+				760B7B1A1F0720F100DBF554 /* Kuma.swift in Sources */,
+				760B7B101F0720CD00DBF554 /* Josie.swift in Sources */,
+				760B7B041F07206D00DBF554 /* Feng.swift in Sources */,
+				760B7B2A1F07213900DBF554 /* Miguel.swift in Sources */,
+				760B7B2C1F07213F00DBF554 /* Nina.swift in Sources */,
+				760B7B301F07216900DBF554 /* Shaheen.swift in Sources */,
+				760B7B201F07210900DBF554 /* Lee.swift in Sources */,
+				760B7B1C1F0720F900DBF554 /* Lars.swift in Sources */,
+				760B7AF81F071C7800DBF554 /* Bryan.swift in Sources */,
+				760B7B061F07207C00DBF554 /* Gigas.swift in Sources */,
 				76B3190D1F05043B00FF9D9D /* AppDelegate.swift in Sources */,
+				760B7AFE1F07203B00DBF554 /* Dragunov.swift in Sources */,
+				760B7AF21F071C3D00DBF554 /* Alisa.swift in Sources */,
+				760B7B0E1F0720C200DBF554 /* Jin.swift in Sources */,
 				76B194A41F052806009A5862 /* CharacterProvider.swift in Sources */,
+				760B7B2E1F07214B00DBF554 /* Paul.swift in Sources */,
+				765DCCBE1F05828500167932 /* CharacterDetailsTableViewController.swift in Sources */,
+				760B7B0A1F0720A300DBF554 /* Hworang.swift in Sources */,
+				760B7B281F07213200DBF554 /* Masterraven.swift in Sources */,
 				76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */,
+				760B7B361F07219A00DBF554 /* Yoshimitsu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
