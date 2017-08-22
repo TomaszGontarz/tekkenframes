@@ -14,12 +14,34 @@ protocol MovesetProvider {
 }
 
 struct MovesetStorage: MovesetProvider {
+    private struct MovesetDataParseer {
+        private enum moveIndexesEnum: Int {
+            case command, hitLevel, damage, startupFrame, blockFrame, hitFrame, counterHitFrame, notes
+        }
+        let parsedData: [Move]
+        init(data: [[String]]) {
+            parsedData = data.map(MovesetDataParseer.move)
+        }
+        
+        static private func move(for stringArray: [String]) -> Move {
+            return Move(command: stringArray[moveIndexesEnum.command.rawValue],
+                        hitLevel: stringArray[moveIndexesEnum.hitLevel.rawValue],
+                        damage: stringArray[moveIndexesEnum.damage.rawValue],
+                        startupFrames: stringArray[moveIndexesEnum.startupFrame.rawValue],
+                        blockFrames: stringArray[moveIndexesEnum.blockFrame.rawValue],
+                        hitFrames: stringArray[moveIndexesEnum.hitFrame.rawValue],
+                        counterhitFrames: stringArray[moveIndexesEnum.counterHitFrame.rawValue],
+                        notes: stringArray[moveIndexesEnum.notes.rawValue])
+        }
+    }
+    
     let moveset: [Move]
     
     init(character: TekkenCharacter) {
-        var data = MovesetData()
+        let data = MovesetData()
         let rawMoves = data.moves(for: character.id)
-        moveset = []
+        let parseer = MovesetDataParseer(data: rawMoves ?? [])
+        moveset = parseer.parsedData
     }
 }
 

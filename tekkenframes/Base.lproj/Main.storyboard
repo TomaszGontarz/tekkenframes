@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="clL-uw-yDT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="clL-uw-yDT">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -87,7 +87,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="MoveCell" id="C1s-mp-Kok">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="MoveCell" id="C1s-mp-Kok" customClass="MoveTableViewCell" customModule="tekkenframes" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="21"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C1s-mp-Kok" id="Et4-OJ-kPc">
@@ -143,6 +143,12 @@
                                         <constraint firstItem="V1j-m1-Vdc" firstAttribute="top" secondItem="Et4-OJ-kPc" secondAttribute="top" id="ypG-xw-juf"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="blockFrame" destination="Ll9-GN-dQz" id="zO6-mO-FdN"/>
+                                    <outlet property="command" destination="IyM-uQ-m7T" id="s99-jc-3Mw"/>
+                                    <outlet property="hitFrame" destination="V1j-m1-Vdc" id="BPT-1h-R30"/>
+                                    <outlet property="startupFrame" destination="cf1-vH-DRH" id="dTh-jW-FSo"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
