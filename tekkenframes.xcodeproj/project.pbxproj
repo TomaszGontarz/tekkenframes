@@ -44,6 +44,7 @@
 		760B7B341F07218600DBF554 /* Xiaoyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B331F07218600DBF554 /* Xiaoyu.swift */; };
 		760B7B361F07219A00DBF554 /* Yoshimitsu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760B7B351F07219A00DBF554 /* Yoshimitsu.swift */; };
 		765DCCBE1F05828500167932 /* CharacterDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */; };
+		765F2DC91F4C60D60059625A /* CharacterDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F2DC81F4C60D60059625A /* CharacterDetailsDataSource.swift */; };
 		7684A88A1F4B0CF000F7AEF4 /* MoveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7684A8891F4B0CF000F7AEF4 /* MoveTableViewCell.swift */; };
 		76B1949D1F0522A8009A5862 /* CharacterSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */; };
 		76B194A01F052436009A5862 /* CharacterSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */; };
@@ -108,6 +109,7 @@
 		760B7B331F07218600DBF554 /* Xiaoyu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xiaoyu.swift; sourceTree = "<group>"; };
 		760B7B351F07219A00DBF554 /* Yoshimitsu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoshimitsu.swift; sourceTree = "<group>"; };
 		765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsTableViewController.swift; sourceTree = "<group>"; };
+		765F2DC81F4C60D60059625A /* CharacterDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsDataSource.swift; sourceTree = "<group>"; };
 		7684A8891F4B0CF000F7AEF4 /* MoveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTableViewCell.swift; sourceTree = "<group>"; };
 		76B1949C1F0522A8009A5862 /* CharacterSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionDelegate.swift; sourceTree = "<group>"; };
 		76B1949F1F052436009A5862 /* CharacterSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionCell.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				765DCCBD1F05828500167932 /* CharacterDetailsTableViewController.swift */,
+				765F2DC81F4C60D60059625A /* CharacterDetailsDataSource.swift */,
 				7684A8891F4B0CF000F7AEF4 /* MoveTableViewCell.swift */,
 				76C8ACEF1F06EBAC00E9EA08 /* MovesetProvider.swift */,
 				76C8ACF11F06EC4B00E9EA08 /* Move.swift */,
@@ -366,6 +369,7 @@
 			files = (
 				760B7B221F07210E00DBF554 /* Leo.swift in Sources */,
 				760B7B321F07217200DBF554 /* Steve.swift in Sources */,
+				765F2DC91F4C60D60059625A /* CharacterDetailsDataSource.swift in Sources */,
 				76C8ACF21F06EC4B00E9EA08 /* Move.swift in Sources */,
 				760B7B341F07218600DBF554 /* Xiaoyu.swift in Sources */,
 				7684A88A1F4B0CF000F7AEF4 /* MoveTableViewCell.swift in Sources */,
@@ -561,7 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D84AR5EWTB;
 				INFOPLIST_FILE = tekkenframes/Misc/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomaszGontarz.tekkenframes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -576,7 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D84AR5EWTB;
 				INFOPLIST_FILE = tekkenframes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomaszGontarz.tekkenframes;
 				PRODUCT_NAME = "$(TARGET_NAME)";

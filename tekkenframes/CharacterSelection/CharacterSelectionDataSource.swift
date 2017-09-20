@@ -22,7 +22,7 @@ class CharacterSelectionDataSource: NSObject, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
-        guard let characterCell = cell  as? CharacterSelectionCell, indexPath.row < displayData.count else { return cell }
+        guard let characterCell = cell as? CharacterSelectionCell, indexPath.row < displayData.count else { return cell }
         characterCell.characterView.image = displayData[indexPath.row].image
         return cell
     }
